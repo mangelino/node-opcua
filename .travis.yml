@@ -21,7 +21,6 @@ matrix:
   allow_failures:
     - os:
       - osx
-      - windows
 
 before_install:
   # make sure we have enough ephemeral port on MacOS
